@@ -6,12 +6,12 @@ void setup() {
 }
 
 void loop() {
-  if(Serial.available() > 0) {
+  Serial.write(1);
+  delay(1000);
+  if (Serial.available() > 0) {
     Serial.read();
     digitalWrite(pumpPin, HIGH);
     delay(1000);
-    return;
-  } 
-
-  digitalWrite(pumpPin, LOW);
+    digitalWrite(pumpPin, LOW);
+  }
 }
