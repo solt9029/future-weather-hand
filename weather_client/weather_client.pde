@@ -32,4 +32,6 @@ void serialEvent (Serial p) {
   if (isTomorrowRainy) {
     port.write(1);
   }
+  
+  println("serialEvent handled");
 }
