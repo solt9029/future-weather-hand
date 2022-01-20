@@ -14,6 +14,9 @@ void setup() {
   port = new Serial(this, Serial.list()[0], 9600);
 }
 
+void draw() {
+}
+
 Boolean isTomorrowRainy() {
   JSONObject res = loadJSONObject(URL);
   String tomorrowWeather = res.getJSONArray("forecasts").getJSONObject(1).getString("telop");
