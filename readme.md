@@ -1,7 +1,7 @@
 ## 手をかざすと未来の天気が分かるシステム
 窓から手をかざして雨を確かめる体験をもとに、手をかざすと未来の天気が分かるシステムを作りました。翌日が雨だと水が垂れてきます☂️
 
-<img width="739" alt="Screen Shot 2022-01-20 at 22 56 43" src="https://user-images.githubusercontent.com/21151010/150352359-dc4a3cf9-82cd-434a-bf2b-ccd0fdb768ad.png">
+<img width="400" alt="Screen Shot 2022-01-20 at 22 56 43" src="https://user-images.githubusercontent.com/21151010/150352359-dc4a3cf9-82cd-434a-bf2b-ccd0fdb768ad.png">
 
 ### 技術スタック
 - Arduino
